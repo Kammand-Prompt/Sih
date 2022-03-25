@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    background-color: #000;
+}
+
+.row {
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 0 0 50%;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+}
+
+.row:after {
+    display: table;
+}
+
+.logoImg {
+    width: 550px;
+    height: 550px;
+}
+
+.text {
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.ideaImg {
+    width: 500px;
+}
+
+.div2 {
+    background-color: #fff;
+}
+
+
+
+
+.descriptionH4 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.pDescription {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.svg {
+    max-width: 350px;
+    max-height: 350px;
+}
